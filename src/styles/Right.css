@@ -1,0 +1,273 @@
+.right-wrapper {
+    padding: 0vh 0vh 1vh 0vh;
+    width: 80vw;
+    overflow: hidden;
+
+}
+
+.top-image-box {
+    padding: 3vh 1vh 0vh 3vh;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    align-items: center;
+    background-color: rgb(68, 68, 68);
+}
+
+.image-circle {
+    border-radius: 50%;
+    border: rgb(235, 169, 13, 0.3) solid;
+    width: 40vh;
+    height: 40vh;
+    overflow: hidden;
+}
+
+.me-pic {
+    width: 40vh;
+    height: 40vh;
+    object-fit: cover;
+}
+
+.title-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: -1vw;
+    /* height: 9vh; */
+}
+
+.my-name {
+    text-align: start;
+    color: white;
+    margin: 0;
+    font-size: 9vh;
+    /* height: 9vh; */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.my-title {
+    text-align: start;
+    margin: 0;
+}
+
+.me-desc {
+    font-size: 1vw;
+    text-align: start;
+    padding: 0vh 5vh 0vh 5vh;
+}
+
+.intro {
+    color: rgb(220, 187, 0);
+    margin: 0;
+    
+}
+
+.intro-p {
+    margin: 0;
+    color: rgb(177, 177, 177);
+    font-style: italic;
+}
+
+.down-image-box {
+    background-color: rgb(54, 53, 53);
+    gap: 11vw;
+    margin-block: 2vh;
+    transition: all 0.3s;
+}
+
+.down-image-box:hover {
+    background-color: rgb(172, 172, 172);
+}
+
+.tech-scroll {
+    white-space: nowrap; 
+    display: flex;
+    justify-content: space-between;
+    gap: 26vw;
+    width: 100%;
+    animation: scroll 55s linear infinite;
+}
+
+.tech-scroll:hover {
+    color: black;
+    animation-play-state: paused;
+}
+
+.tech-list {
+    width: 100%;
+    /* display: flex; */
+    list-style-type: none;
+    align-items: center;
+    gap: 2vw;
+    padding: 2vh 0vh 2vh 0vh;
+    margin: 0;
+    white-space: nowrap; 
+    transform-origin: right center;
+}
+
+.tech-item {
+    display: inline-block;
+
+}
+
+.tech-item > * {
+    margin: 0;
+    /* border: red solid; */
+}
+
+.tech-list p {
+    font-size: 1vw;
+    width: 7vw;
+
+}
+
+@keyframes scroll {
+    from {
+      transform: translateX(0%); /* Start from the right */
+    }
+    to {
+      transform: translateX(-132.5%); /* Scroll to the left */
+    }
+}
+
+.social-wrapper {
+
+    background-color: rgb(68, 68, 68);
+}
+
+.socials {
+    /* padding-bottom: 2vh; */
+    background-color: rgb(68, 68, 68);
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.connect {
+    margin: 0;
+}
+  
+.social-box {
+    position: relative;
+    display: flex;
+    gap: 0.5vh;
+    width: 45vh;
+    height: 6vh;
+    list-style-type: none;
+    font-size: 1.5vh;
+    background-color: rgb(131, 131, 131);
+    color: black;
+    padding: 1vh;
+    transition: all 0.5s ease-out;
+}
+
+.soc-icon {
+    height: 6vh;
+    transition: all 0.2s ease-in;
+    opacity: 0.4;
+}
+
+.soc-icon:hover {
+    opacity: 1;
+    /* height: 7vh; */
+}
+
+.soc1-box {
+    display: flex;
+    align-items: center;
+    gap: 1vh;
+    transition: all 0.5s ease-out;
+
+}
+
+.soc1-desc {
+    text-align: start;
+}
+
+.soc1-desc > * {
+    margin: 0%;
+}
+
+.soc1-icon {
+    height: 6vh;
+}
+.soc-link {
+    color: white;
+    text-decoration: none;
+}
+
+.soc-x {
+    /* display: none; */
+    position: absolute;
+    top: 0vh;
+    right: 1vh;
+    margin: 0;
+    cursor: pointer;
+}
+
+.contact-box{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    /* border: solid greenyellow; */
+}
+
+.con-left{
+    /* border: rgb(190, 103, 103) solid; */
+}
+
+.con-head {
+    margin-block: 0.5vh;
+}
+
+.box-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 1rem;
+    /* border: solid orange; */
+}
+
+.con-form {
+    display: flex;
+    flex-direction: column;
+    /* width: 50%; */
+    gap: 1vh;
+}
+
+.con-form > * {
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background-color: black;
+    border: 1px solid rgb(65, 65, 65);
+}
+
+.con-send {
+    width: 20%;
+    padding: 1.5vh;
+    color: black;
+    background-color: rgb(206, 206, 206);
+    
+}
+
+.con-right {
+}
+
+.resume-box {
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* border: solid purple; */
+}
+
+.resume-box button {
+    border-radius: 15px;
+    padding: 1.5vh;
+    color: white;
+    background-color: black;
+}
+
+.number {
+    color: white;
+}
