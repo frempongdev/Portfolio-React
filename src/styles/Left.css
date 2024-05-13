@@ -3,3 +3,37 @@
     height: 99vh;
     width: 18vw;
 }
+
+.projects-box {
+    padding-left: 0;
+}
+
+.one-project {
+    list-style: none;
+    border: 1px solid grey;
+    border-radius: 8px;
+    margin-bottom: 0.5rem;
+}
+
+.project-name {
+    margin-bottom: 0;
+}
+
+.links-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-block: 0.4rem;
+
+}
+
+.project-clicks {
+    color: white;
+    font-size: 1.5rem;
+    transition: all 0.2s ease-in-out;
+}
+
+.project-clicks:hover {
+    color: gray;
+}
