@@ -23,7 +23,7 @@
   from {
     transform: rotate(0deg);
   }
-
+  
   to {
     transform: rotate(360deg);
   }
@@ -32,4 +32,43 @@
 .full-page {
   display: grid;
   grid-template-columns: 1fr 4fr;
+}
+
+.mobile-wait {
+  display: none;
+}
+
+@media screen and (max-width:1279px) {
+  .full-page {
+    display: none;
+  }
+
+  .mobile-wait {
+    display: block;
+  }
+
+  .mob-notice {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #15326F;
+    text-align: center;
+    padding-top: 4rem;
+  }
+
+  .mnp {
+    animation: moveUpDown 3s ease-in-out infinite;
+  }
+
+  @keyframes moveUpDown {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px); /* Adjust the value to control the distance */
+    }
+  }
+
 }
