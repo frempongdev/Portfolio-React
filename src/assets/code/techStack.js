@@ -1,63 +1,78 @@
+import eclipse1 from '../tech-logos/Ellipse-1.png'
+import eclipse2 from '../tech-logos/Ellipse-2.png'
+import eclipse3 from '../tech-logos/Ellipse-3.png'
+import eclipse4 from '../tech-logos/Ellipse-4.png'
+import eclipse5 from '../tech-logos/Ellipse-5.png'
+import eclipse6 from '../tech-logos/Ellipse-6.png'
+import eclipse7 from '../tech-logos/Ellipse-7.png'
+import eclipse8 from '../tech-logos/Ellipse-8.png'
+import eclipse9 from '../tech-logos/Ellipse-9.png'
+import eclipse10 from '../tech-logos/Ellipse-10.png'
+import eclipse11 from '../tech-logos/Ellipse-11.png'
+import eclipse12 from '../tech-logos/Ellipse-12.png'
+import eclipse13 from '../tech-logos/Ellipse-13.png'
+import eclipse14 from '../tech-logos/Ellipse-14.png'
+
 export const techStack = [
     {
         name: 'JavaScript',
-        img: 'src/assets/tech-logos/Ellipse 1.png'
+        img: eclipse1
     },
     {
         name: 'HTML5',
-        img: 'src/assets/tech-logos/Ellipse 2.png'
+        img: eclipse2
     },
     {
         name: 'CSS3',
-        img: 'src/assets/tech-logos/Ellipse 3.png'
+        img: eclipse3
     },
     {
         name: 'Ruby',
-        img: 'src/assets/tech-logos/Ellipse 4.png'
+        img: eclipse4
     },
     {
         name: 'Rails',
-        img: 'src/assets/tech-logos/Ellipse 5.png'
+        img: eclipse5
     },
     {
         name: 'React',
-        img: 'src/assets/tech-logos/Ellipse 10.png'
+        img: eclipse10
     },
     {
         name: 'React Native',
-        img: 'src/assets/tech-logos/Ellipse 10.png'
+        img: eclipse10
     },
     {
         name: 'Redux',
-        img: 'src/assets/tech-logos/Ellipse 7.png'
+        img: eclipse7
     },
     {
         name: 'SQL',
-        img: 'src/assets/tech-logos/Ellipse 6.png'
+        img: eclipse6
     },
     {
         name: 'PostgreSQL',
-        img: 'src/assets/tech-logos/Ellipse 8.png'
+        img: eclipse8
     },
     {
         name: 'Jest',
-        img: 'src/assets/tech-logos/Ellipse 9.png'
+        img: eclipse9
     },
     {
         name: 'Bootstrap',
-        img: 'src/assets/tech-logos/Ellipse 11.png'
+        img: eclipse11
     },
     {
         name: 'Postman',
-        img: 'src/assets/tech-logos/Ellipse 12.png'
+        img: eclipse12
     },
     {
         name: 'Git',
-        img: 'src/assets/tech-logos/Ellipse 13.png'
+        img: eclipse13
     },
     {
         name: 'GitHub',
-        img: 'src/assets/tech-logos/Ellipse 14.png'
+        img: eclipse14
     },
 
 ]
