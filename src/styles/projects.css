@@ -1,0 +1,31 @@
+.pjd-close {
+    font-size: 1.5rem;
+}
+
+.pjd-title {
+    margin-block: 0.2rem;
+}
+
+.pjd-main {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    position: relative;
+    height: 100%;
+    margin-top: -2.5rem;
+    overflow: hidden;
+}
+
+.pjd-img {
+    height: 100%;
+    margin-top: -1.5rem;
+}
+
+.pjd-img img {
+    height: 51vh;
+}
+
+.pjd-desc {
+    margin-top: 2rem;
+    text-align: start;
+    padding-right: 1rem;
+}
