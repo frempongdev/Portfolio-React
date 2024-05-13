@@ -113,21 +113,25 @@
 
 @keyframes scroll {
   from {
-    transform: translateX(0%); /* Start from the right */
+    transform: translateX(0%);
+
+    /* Start from the right */
   }
 
   to {
-    transform: translateX(-132.5%); /* Scroll to the left */
+    transform: translateX(-132.5%);
+
+    /* Scroll to the left */
   }
 }
 
 .social-wrapper {
+  display: block !important;
   margin-top: -4.5rem;
   background-color: rgb(68, 68, 68);
 }
 
 .socials {
-  /* padding-bottom: 2vh; */
   background-color: rgb(68, 68, 68);
   display: flex;
   justify-content: center;
