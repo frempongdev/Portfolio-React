@@ -37,7 +37,7 @@ export const socials = [
     },
     {
         name: 'Wellfound',
-        icon: 'src/assets/socials/linkedin-logo.png',
+        icon: 'src/assets/socials/wellfound-logo.png',
         username: 'frempongdev',
         link: 'https://wellfound.com/'
     },
