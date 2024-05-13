@@ -2,14 +2,12 @@
     padding: 0vh 0vh 1vh 0vh;
     width: 80vw;
     overflow: hidden;
-
 }
 
 .top-image-box {
     padding: 3vh 1vh 0vh 3vh;
     display: grid;
     grid-template-columns: 1fr 3fr;
-    align-items: center;
     background-color: rgb(68, 68, 68);
 }
 
@@ -32,15 +30,13 @@
     flex-direction: column;
     justify-content: center;
     gap: -1vw;
-    /* height: 9vh; */
 }
 
 .my-name {
     text-align: start;
     color: white;
-    margin: 0;
-    font-size: 9vh;
-    /* height: 9vh; */
+    margin: -0.5rem 0 -0.5rem 0;
+    font-size: 4rem;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
@@ -52,7 +48,7 @@
 .me-desc {
     font-size: 1vw;
     text-align: start;
-    padding: 0vh 5vh 0vh 5vh;
+    padding: 3vh 5vh 0vh 5vh;
 }
 
 .intro {
@@ -94,7 +90,6 @@
 
 .tech-list {
     width: 100%;
-    /* display: flex; */
     list-style-type: none;
     align-items: center;
     gap: 2vw;
@@ -111,7 +106,6 @@
 
 .tech-item > * {
     margin: 0;
-    /* border: red solid; */
 }
 
 .tech-list p {
@@ -130,7 +124,7 @@
 }
 
 .social-wrapper {
-
+    margin-top: -4.5rem;
     background-color: rgb(68, 68, 68);
 }
 
@@ -139,7 +133,6 @@
     background-color: rgb(68, 68, 68);
     display: flex;
     justify-content: center;
-
 
 }
 
@@ -169,7 +162,6 @@
 
 .soc-icon:hover {
     opacity: 1;
-    /* height: 7vh; */
 }
 
 .soc1-box {
@@ -197,7 +189,6 @@
 }
 
 .soc-x {
-    /* display: none; */
     position: absolute;
     top: 0vh;
     right: 1vh;
@@ -207,12 +198,8 @@
 
 .contact-box{
     display: grid;
-    grid-template-columns: 2fr 1fr;
-    /* border: solid greenyellow; */
-}
-
-.con-left{
-    /* border: rgb(190, 103, 103) solid; */
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-right: 0.2rem;
 }
 
 .con-head {
@@ -224,13 +211,11 @@
     grid-template-columns: 1fr 1fr;
     align-items: center;
     gap: 1rem;
-    /* border: solid orange; */
 }
 
 .con-form {
     display: flex;
     flex-direction: column;
-    /* width: 50%; */
     gap: 1vh;
 }
 
@@ -251,23 +236,41 @@
     
 }
 
-.con-right {
-}
-
-.resume-box {
-    /* display: flex; */
-    /* justify-content: center; */
-    /* align-items: center; */
-    /* border: solid purple; */
-}
-
 .resume-box button {
     border-radius: 15px;
     padding: 1.5vh;
     color: white;
     background-color: black;
+    margin-top: 1rem;
+}
+
+.call-btn {
+    font-size: 3rem;
 }
 
 .number {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 1.2rem;
     color: white;
+    text-decoration: none;
+    margin-bottom: 1rem;
 }
+
+.address {
+    color: white;
+    text-decoration: none;
+}
+
+.pjd-wrapper {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(71, 71, 71);
+    z-index: 1;
+}   
+
