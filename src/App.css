@@ -23,7 +23,7 @@
   from {
     transform: rotate(0deg);
   }
-  
+
   to {
     transform: rotate(360deg);
   }
@@ -38,7 +38,7 @@
   display: none;
 }
 
-@media screen and (max-width:1279px) {
+@media screen and (max-width: 1279px) {
   .full-page {
     display: none;
   }
@@ -53,7 +53,7 @@
     align-items: center;
     font-size: 1rem;
     font-weight: 600;
-    color: #15326F;
+    color: #15326f;
     text-align: center;
     padding-top: 4rem;
   }
@@ -63,12 +63,13 @@
   }
 
   @keyframes moveUpDown {
-    0%, 100% {
+    0%,
+    100% {
       transform: translateY(0);
     }
+
     50% {
       transform: translateY(-10px); /* Adjust the value to control the distance */
     }
   }
-
 }
