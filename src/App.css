@@ -1,7 +1,6 @@
 #root {
-  max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 0.5vh;
   text-align: center;
 }
 
@@ -30,16 +29,47 @@
   }
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
+.full-page {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+}
+
+.mobile-wait {
+  display: none;
+}
+
+@media screen and (max-width: 1279px) {
+  .full-page {
+    display: none;
   }
-}
 
-.card {
-  padding: 2em;
-}
+  .mobile-wait {
+    display: block;
+  }
 
-.read-the-docs {
-  color: #888;
+  .mob-notice {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #15326f;
+    text-align: center;
+    padding-top: 4rem;
+  }
+
+  .mnp {
+    animation: moveUpDown 3s ease-in-out infinite;
+  }
+
+  @keyframes moveUpDown {
+    0%,
+    100% {
+      transform: translateY(0);
+    }
+
+    50% {
+      transform: translateY(-10px); /* Adjust the value to control the distance */
+    }
+  }
 }
