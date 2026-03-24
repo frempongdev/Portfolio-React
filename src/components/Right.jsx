@@ -6,6 +6,7 @@ import EmblaCarousel from './Embla/EmblaCarousel'
 import { IoMdCall } from "react-icons/io";
 import ClientForm from './Form'
 import ProjectDisplay from './ProjectDisplay'
+import myImage from '../assets/myimage-copy.png'
 
 
 const OPTIONS = { axis: 'y', loop: 'true' }
@@ -22,7 +23,7 @@ const Right = () => {
         <ProjectDisplay />
         <div className="top-image-box">
           <div className="image-circle">
-            <img src="https://avatars.githubusercontent.com/u/117144028?v=4" alt="me-pic" className="me-pic" />
+            <img src={myImage} alt="me-pic" className="me-pic" />
           </div>
           <div className="me-desc">
             <div className="title-box">
@@ -30,9 +31,7 @@ const Right = () => {
               <h1 className="my-name">FREMPONG</h1>
             </div>
             <h2 className="my-title">A FULL-STACK SOFTWARE ENGINEER</h2>
-            <p className="intro-p">With passion for learning and problem-solving.
-              Brings enthusiasm and a strong work ethic to every project.
-              Continually eager to grow skills and contribute to innovative software development.</p>
+            <p className="intro-p">I have spent the last few years building real products for real users — a SaaS team scheduling platform, a computer repair e-commerce app, and client sites across the UK and US. I lead engineering at Prodecode UK and previously spent 18 months reviewing and mentoring 300+ developers at Microverse. I write clean, maintainable code, move fast, and communicate well across time zones. If you're building something and need an engineer who takes ownership seriously, let&apos;s talk.</p>
           </div>
         </div>
         <div className="social-wrapper">
