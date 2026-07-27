@@ -10,11 +10,11 @@ function App() {
     <Provider store={store}>
       <div className='mobile-wait'>
         <div className="mob-notice">
-        <div className="image-circle mnp">
+          <div className="image-circle mnp">
             <img src="https://avatars.githubusercontent.com/u/117144028?v=4" alt="me-pic" className="me-pic" />
           </div>
         </div>
-        <div className="mob-notice">MOBILE VERSION STILL IN PRODUCTION</div>
+        <div style={{ color: "white" }} className="mob-notice">THIS PAGE IS BEST VIEWED ON A DESKTOP OR LAPTOP.</div>
       </div>
       <div className="full-page">
         <Left />
