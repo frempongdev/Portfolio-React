@@ -65,9 +65,9 @@
 }
 
 .down-image-box {
-  background-color: rgb(54, 53, 53);
+  /* background-color: rgb(54, 53, 53); */
   gap: 11vw;
-  margin-block: 2vh;
+  /* margin-block: 2vh; */
   transition: all 0.3s;
 }
 
@@ -206,7 +206,7 @@
 .con-left,
 .con-middle,
 .con-right {
-  padding: 1.2rem 1rem;
+  padding: 0 1rem;
 }
 
 .con-left {
